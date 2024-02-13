@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+    <head>
+        <title>Home | Harry Potter</title>
+
+        <meta charset="UTF-8">
+        <meta name="author" content="">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="icon" type="image/x-icon" href="Images/LogoHP.png">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Protest+Revolution&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <a href="#" class="logo"><img src="Images/HarryPotter.png" alt=""></a>
+
+                <div class="navLinks">
+                    <ul>
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="characters.html">Characters</a></li>
+                        <li><a href="creatures.html">Creatures</a></li> 
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+                
+                <div class="icons">
+                    <i class="darkMode fa fa-sun" onclick="changeModeIcon(this)"></i>
+                    
+                    <i class="log ri-user-fill"></i>
+
+                    <i class="menu fa fa-bars" onclick="changeMenuIcon(this)"></i>
+                </div>
+            </nav>
+            
+            <div class="register">
+                <span class="closeIcon">
+                    <i class="ri-close-line"></i>
+                </span>
+    
+                <div class="formBox login">
+                    <h2>Login</h2>
+                    <form action="#">
+                        <div class="inputBox">
+                            <span class="icon"><i class="ri-mail-fill"></i></span>
+                            <input type="email" required>
+                            <label for="">Email</label>
+                        </div>
+                        <div class="inputBox">
+                            <span class="icon"><i class="ri-lock-2-fill"></i></span>
+                            <input type="password" required>
+                            <label for="">Password</label>
+                        </div>
+                        <div class="rememberForgot">
+                            <label for=""><input type="checkbox" required>Remember me</label>
+                            <a href="#">Forgot Password ?</a>
+                        </div>
+                        <button type="submit" class="submit">Login</button>
+                        <div class="loginRegister">
+                            <p>Don't have an account ? <a href="#" class="registerLink">Register</a></p> 
+                        </div>
+                    </form>
+                </div>
+                
+                <div class="formBox registration">
+                    <h2>Registration</h2>
+                    <form action="#">
+                        <div class="inputBox">
+                            <span class="icon"><i class="ri-user-fill"></i></span>
+                            <input type="text" required>
+                            <label for="">Username</label>
+                        </div>
+                        <div class="inputBox">
+                            <span class="icon"><i class="ri-mail-fill"></i></span>
+                            <input type="email" required>
+                            <label for="">Email</label>
+                        </div>
+                        <div class="inputBox">
+                            <span class="icon"><i class="ri-lock-2-fill"></i></span>
+                            <input type="password" required>
+                            <label for="">Password</label>
+                        </div>
+                        <div class="rememberForgot">
+                            <label for=""><input type="checkbox" required>I agree with the terms and conditions</label>
+                        </div>
+                        <button type="submit" class="submit">Register</button>
+                        <div class="loginRegister">
+                            <p>Already have an account ? <a href="#" class="loginLink">Login</a></p> 
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="textBox">
+                <h1>Welcome to the magical world</h1>
+            </div>
+        </header>
+
+        <section class="summaryList">
+            <h2>Summary</h2>
+            <div class="summary">
+                <ul>
+                    <li><a href="#summaryId">Summary</a></li>
+                    <li><a href="#author">Author</a></li>
+                    <li><a href="#publishingHouse">Publishing House</a></li>
+                    <li><a href="#studio">Studio</a></li>
+                    <li><a href="#other">Other</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="summaryId" class="summaryId">
+            <h2>Summary</h2>
+            <div class="content">
+                <img src="Homepage/PoudlardHouse.png" alt="Poudlard">
+                
+                <div class="text">
+                    <h3>The world</h3>
+                    <br>
+                    <p>L'univers de Harry Potter est un sous-univers fictif du monde des sorciers créé par J. K. Rowling, dans lequel le personnage de fiction Harry Potter évolue au sein de la saga littéraire du même nom. L'histoire de Harry Potter est ancrée dans la société britannique des années 1990. La communauté magique de Grande-Bretagne dispose de sa propre organisation gouvernementale (le ministère de la Magie) avec notamment ses propres lois, son école de magie (Poudlard), son système économique, ses médias ou ses transports spécifiques. À l'école de sorcellerie Poudlard, décrite principalement dans l'univers de la série littéraire Harry Potter, il existe quatre maisons distinctes : « Gryffondor », « Poufsouffle », « Serdaigle » et « Serpentard ». Les élèves y sont répartis par le Choixpeau magique dès leur première année à l'école, en fonction de leur personnalité. Ils y restent jusqu'à leur septième et dernière année d'études.</p>
+                </div>
+            </div>   
+        </section>
+
+        <section id="author" class="author">
+            <h2>Author</h2>
+            <div class="content">
+                <div class="text">
+                    <h3>J.K. Rowling</h3>
+                    <br>
+                    <p>Joanne Rowling, plus connue sous les noms de J. K. Rowling et Robert Galbraith, est une romancière et scénariste britannique née le 31 juillet 1965 dans l'agglomération de Yate. Elle doit sa notoriété mondiale à la série Harry Potter, dont les romans traduits en près de quatre-vingts langues ont été vendus à plus de 500 millions d'exemplaires dans le monde. Issue d'une famille modeste, elle a écrit sa première « histoire » à l'âge de six ans. Après des études à l'université d'Exeter ainsi qu'à la Sorbonne où elle a obtenu un diplôme en littérature française et en philologie, elle a travaillé un temps au sein d'Amnesty International, puis a enseigné l'anglais et le français. C'est à vingt-cinq ans qu'elle a bâti les premiers concepts et institutions de son univers sorcier, dans lequel un enfant orphelin découvrait à la fois son héritage tragique et ses talents de magicien. Elle a rédigé son premier roman, L'École des sorciers, dans un contexte de précarité et de dépression et a dû attendre plus d'un an avant sa publication en 1997 chez Bloomsbury.</p>
+                </div>
+                <img src="Homepage/JKRowling.jpg" alt="J.K. Rowling">
+            </div>
+        </section>
+
+        <section id="publishingHouse" class="publishingHouse">
+            <h2>Publishing House</h2>
+            <div class="content">
+                <img src="Homepage/Bloomsbury.png" alt="Bloomsbury">
+                <div class="text">
+                    <h3>Bloomsbury Publishing</h3>
+                    <br>
+                    <p>Bloomsbury Publishing plc a été fondée en 1986 par Nigel Newton, qui avait déjà travaillé dans d'autres maisons d'éditions auparavant. est un groupe éditorial britannique indépendant. Il publie des romans et des essais. Son siège se trouve dans le quartier de Camden à Londres, et d'autres bureaux d'édition sont implantés dans les villes de New York, New Delhi et Sydney. La croissance de la maison d'édition, grâce à la publication de la série Harry Potter de J. K. Rowling à partir de la fin de l'année 1997, connaît une augmentation décisive. Le monde littéraire britannique lui décerne le prix d'éditeur de l'année en 1999 et 2000, et la série connaît un succès mondial.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="studio">
+            <h2>Studio</h2>
+            <div class="content">
+                <div class="text">
+                    <h3>Warner Bros</h3>
+                    <br>
+                    <p>Warner Bros. Entertainment Inc. est l'une des plus grandes sociétés de production et de distribution au monde, pour le cinéma et la télévision. À la fin des années 1990, la Warner obtient les droits de la saga Harry Potter et produit ses adaptations qui sortent entre novembre 2001 et juillet 2011. Harry Potter et le Prince de sang-mêlé est initialement prévu pour novembre 2008 mais, à trois mois de la sortie, celle-ci est repoussée à juillet 2009 officiellement à cause de la grève de la Writers Guild of America. En réalité, la décision est uniquement financière. La Warner Bros. décide également d'adapter le dernier tome, Harry Potter et les Reliques de la Mort en deux films qui sortent en 2010 et 2011. À partir de 2016, la Warner produit la série de films Les Animaux fantastiques, qui se situent dans le même univers étendu que l'histoire de Harry Potter, mais une soixantaine d'années plus tôt dans la chronologie. Le monde des sorciers de J. K. Rowling est l'une des franchises les plus rentables de l'histoire du cinéma.</p>
+                </div>
+                <img src="Homepage/WarnerBros.png" alt="Warner Bros">
+            </div>
+        </section>
+
+        <section id="other" class="other">
+            <h2>Other</h2>
+            <div class="content">
+                <img src="Homepage/Hogwarts.png" alt="Hogwarts Legacy">
+                <div class="text">
+                    <h3>Hogwarts Legacy</h3>
+                    <br>
+                    <p>Hogwarts Legacy : L'Héritage de Poudlard est un jeu vidéo de rôle (RPG) développé par Avalanche Software et édité par Warner Bros. Interactive Entertainment en collaboration avec Portkey Games. L'intrigue se déroule dans l'univers étendu de fantasy imaginé par J. K. Rowling pour les romans Harry Potter et les films Les Animaux fantastiques. Elle suit l'évolution d'un sorcier ou d'une sorcière, c'est-à-dire la personne qui joue au jeu, au sein de l'école de sorcellerie de Poudlard, à la fin des années 1800, soit antérieurement aux événements des deux séries de Rowling.</p>
+                </div>
+            </div>
+        </section>
+
+<!--
+        
+        
+        
+
+        
+
+         -->
+
+        <section class="join">
+            <h2>Rejoint le groupe</h2>
+            <a href="#" class="heroBtn">Rejoindre</a>
+        </section>
+
+        <footer>
+            <div class="socialIcons">
+                <a href="#"><i class="ri-discord-fill"></i></i></a>
+                <a href="#"><i class="ri-github-fill"></i></a>
+                <a href="#"><i class="ri-instagram-fill"></i></a>
+                <a href="#"><i class="ri-twitter-fill"></i></a>
+            </div>
+        </footer>
+    </body>
+    <button onclick="topFunction()" class="btn" title="Go to top">▲</button>
+    <script src="script.js"></script>
+</html>
